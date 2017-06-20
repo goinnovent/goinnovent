@@ -1,0 +1,49 @@
+// FOOTER
+.footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #4E4D50;
+
+  .social-links {
+    color: $accent;
+    display: flex;
+    align-items: center;
+    margin-top: 33px;
+    margin-bottom: 12px;
+
+    a {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      margin-right: 37px;
+      text-decoration: none;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .company-info {
+    color: $accent;
+
+    span {
+      display: inline-block;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+
+  .copyright {
+    color: #fff;
+  }
+}

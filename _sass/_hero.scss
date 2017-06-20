@@ -1,0 +1,37 @@
+// HERO
+.hero {
+  position: relative;
+  height: calc(100vh + 200px);
+  margin-bottom: calc(100vh - 398px);
+  background-color: pink;
+  background-attachment: fixed;
+  background-image: url('/images/hero1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .slider {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+
+  h1 {
+    margin: 0;
+  }
+}
+
+.hero-split {
+  width: 100%;
+  position: absolute;
+  bottom: calc(-100vh + 398px);
+  left: 0;
+
+  img {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+  }
+}

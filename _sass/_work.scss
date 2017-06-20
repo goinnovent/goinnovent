@@ -1,0 +1,21 @@
+.c-work-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  
+  .c-work {
+    width: 33.333vw;
+    height: 33.333vw;
+    padding: 33px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid red;
+
+    hr {
+      width: 102px;
+      margin: 1.5rem auto;
+    }
+  }
+}
