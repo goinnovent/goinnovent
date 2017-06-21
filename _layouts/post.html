@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body>
+  <div class="page-wrapper">
+    {% include nav.html %}
+
+    <div class="post-content">
+      <div class="post-images">
+        pics coming here
+      </div>
+
+      <div class="post-copy">
+        <div class="prose">
+          {{ content }}
+        </div>
+
+        <div class="mt-6 mb-5">
+          <h5 class="mb-1">Attendee type:</h5>
+          {{ page.attendee }}
+        </div>
+
+        <div class="mb-5">
+          <h5>Services:</h5>
+          {{ page.services }}
+        </div>
+
+        <div class="mb-6">
+          <h5>Years of our involvement:</h5>
+          {{ page.years }}
+        </div>
+
+        <h4 class="text-accent mb-2">Event at-a-glance:</h4>
+        {{ page.glance | markdownify }}
+      </div>
+    </div>
+
+  </div>
+  {% include footer.html %}
+</body>
+</html>

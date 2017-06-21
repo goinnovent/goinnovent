@@ -1,0 +1,32 @@
+.services-wrapper {
+  display: flex;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  h2 {
+    font-size: 46px;
+    color: #799A3F;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  p {
+    margin-bottom: 8px;
+  }
+
+  // List Nesting
+  ul {
+    margin-left: 3rem;
+  }
+
+  ul ul {
+    margin-top: 8px;
+    margin-left: 4rem;
+  }
+
+  li {
+    margin-bottom: 8px;
+  }
+}

@@ -9,19 +9,42 @@
   background-size: cover;
   will-change: all;
 
+  h1 {
+    margin: 0;
+    font-size: 46px;
+    color: #fff;
+  }
+
   .slider {
     height: 50%;
     display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: #fff;
   }
 
-  h1 {
-    margin: 0;
-    font-size: 46px;
+  .page-header {
+    height: 60%;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+    flex-direction: column;
     color: #fff;
+
+    hr {
+      width: 250px;
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+
+    p {
+      max-width: 75ch;
+      color: #fff;
+    }
   }
 }
 

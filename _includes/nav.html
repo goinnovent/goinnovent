@@ -1,13 +1,17 @@
 <header class="topbar">
   <div class="logo">
-    <a href="">
-      <img src="/images/logo.svg" alt="">
+    <a href="/">
+      {% if page.layout == "post" %}
+        <img src="/images/logo-dark.svg" alt="Innovent">
+      {% else %}
+        <img src="/images/logo.svg" alt="Innovent">
+      {% endif %}
     </a>
   </div>
-  <nav class="nav">
-    <a href="#" class="active">Home</a>
-    <a href="#">Services</a>
-    <a href="#">Work</a>
-    <a href="#">Content</a>
+  <nav class="nav {% if page.layout == "post" %}dark{% endif %}">
+    <a href="/" {% if page.title == 'Home' %}class='active'{% endif %}>Home</a>
+    <a href="/services" {% if page.title == 'Services' %}class='active'{% endif %}>Services</a>
+    <a href="/work" {% if page.title == 'Work' %}class='active'{% endif %}>Work</a>
+    <a href="/contact" {% if page.title == 'Contact' %}class='active'{% endif %}>Contact</a>
   </nav>
 </header>

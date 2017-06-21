@@ -2,6 +2,8 @@
 ---
 
 $accent: #6C9557;
+$body-text: #474645;
+$header-text: #474645;
 
 * {
   box-sizing: border-box;
@@ -39,6 +41,16 @@ body {
 
       &.active {
         border-bottom: 2px solid #fff;
+      }
+    }
+
+    &.dark {
+      a {
+        color: $body-text;
+
+        &.active {
+          border-bottom: 2px solid $body-text;
+        }
       }
     }
   }
@@ -85,3 +97,7 @@ body {
 
 // Misc
 @import "colors";
+
+// Pages
+@import "pages/services";
+@import "pages/post";

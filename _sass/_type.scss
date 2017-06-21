@@ -1,6 +1,3 @@
-$body-text: #474645;
-$header-text: #474645;
-
 body {
   color: $body-text;
 }
@@ -34,10 +31,34 @@ h6, .h6 {
   font-size: 14px;
 }
 
+p {
+  line-height: 1.5;
+}
+
+ul {
+  margin-left: 2rem;
+
+  li {
+    margin-bottom: 8px;
+  }
+}
+
 hr {
   border: 0;
   border-top: 4px solid #729C5B;
 }
+
+// Line Height for long text
+.prose {
+  * + * {
+    margin-top: 1rem;
+  }
+}
+
+// Measures
+.measure { max-width: 65ch; }
+.measure-wide { max-width: 85ch; }
+.measure-narrow { max-width: 45ch; }
 
 // Helpers
 .text-light { font-weight: 300; }
