@@ -11,11 +11,37 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 2px solid red;
+    color: #fff;
 
     hr {
       width: 102px;
       margin: 1.5rem auto;
+      border-color: #fff;
     }
+  }
+
+  // Hover Modifiers
+  .m-thoughtspot {
+    background-color: #008D97;
+  }
+
+  .m-mwi {
+    background-color: #1D8049;
+  }
+
+  .m-amerisource {
+    background-color: #4E4D50;
+  }
+
+  .m-summit {
+    background-color: #023833;
+  }
+
+  .m-ifpw {
+    background-color: #E16A2C;
+  }
+
+  .m-contact {
+    background-color: #7FA240;
   }
 }
