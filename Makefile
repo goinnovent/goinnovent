@@ -1,4 +1,4 @@
 deploy:
-	now _site/
+	jekyll build && now _site/
 
 .PHONY: deploy
