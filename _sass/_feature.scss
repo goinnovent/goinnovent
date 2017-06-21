@@ -1,5 +1,13 @@
 .c-feature-wrapper {
+  padding-top: 60px;
+  margin-bottom: 80px;
+
   .c-feature {
     flex: 1;
+    padding-right: 60px;
+
+    &:last-child {
+      padding-right: 0;
+    }
   }
 }

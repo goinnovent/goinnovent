@@ -1,0 +1,38 @@
+.about {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: flex;
+
+  .about-left {
+    width: 28%;
+    margin-right: 4%;
+  }
+
+  .about-right {
+    width: 64%;
+    margin-left: 4%;
+
+    hr {
+      width: 251px;
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    .about-vert-spacer {
+      margin-left: 8px;
+      margin-right: 8px;
+    }
+  }
+
+  .about-copy {
+
+    p {
+      margin-bottom: 24px;
+    }
+  }
+}

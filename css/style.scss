@@ -1,7 +1,7 @@
 ---
 ---
 
-$accent: #85B8B8;
+$accent: #6C9557;
 
 * {
   box-sizing: border-box;
@@ -11,6 +11,7 @@ $accent: #85B8B8;
 
 body {
   font-family: 'Work Sans', sans-serif;
+  background-color: #272826;
 }
 
 .topbar {
@@ -28,6 +29,17 @@ body {
     a {
       color: #fff;
       text-decoration: none;
+      font-size: 18px;
+      margin-right: 32px;
+      padding-bottom: 8px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &.active {
+        border-bottom: 2px solid #fff;
+      }
     }
   }
 }
@@ -45,10 +57,30 @@ body {
   width: 100%;
 }
 
+.container {
+  max-width: 1400px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// General
 @import "type";
 
+// Utilities
+@import "utilities/flex";
+@import "utilities/spacing";
+
+// Shared
 @import "hero";
 @import "footer";
 
+// Home
 @import "feature";
+@import "about";
 @import "work";
+@import "clients";
+
+// Misc
+@import "colors";

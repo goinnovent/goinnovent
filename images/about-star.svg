@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="345px" height="320px" viewBox="0 0 345 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>about-star</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="about-star">
+            <polyline id="Fill-20" fill="#797A76" points="286.795 319.54 209.706 275.43 210.181 210.12 210.176 210.11 210.815 121.14 210.181 210.12 286.945 166.08 286.795 319.54"></polyline>
+            <polyline id="Fill-21" fill="#46948D" points="133.432 254.02 0.508 175.38 76.972 131.7 133.845 165.18 133.432 254.02"></polyline>
+            <path d="M133.128,319.34 L133.432,254.02 L210.176,210.12 L209.706,275.43 L133.128,319.34 M210.176,210.11 L133.845,165.18 L210.176,210.11" id="Fill-24" fill="#474645"></path>
+            <path d="M209.706,275.43 L209.706,275.43 L210.176,210.12 L210.181,210.12 L209.706,275.43 M210.181,210.12 L210.176,210.11 L210.181,210.12" id="Fill-25" fill="#212220"></path>
+            <polyline id="Fill-26" fill="#182828" points="133.432 254.02 133.432 254.02 133.845 165.18 210.176 210.11 210.176 210.12 133.432 254.02"></polyline>
+            <polyline id="Fill-27" fill="#0F1514" points="210.176 210.12 210.176 210.11 210.181 210.12 210.176 210.12"></polyline>
+            <polyline id="Fill-29" fill="#253924" points="210.181 210.12 210.815 121.14 286.946 164.9 286.945 166.08 210.181 210.12"></polyline>
+            <polyline id="Fill-19" fill="#6C9557" points="210.815 121.14 134.437 76.79 268.069 0.32 268.069 88.38 210.811 121.14"></polyline>
+            <polyline id="Fill-22" fill="#81B0AC" points="133.845 165.18 77.308 131.89 77.308 43.61 134.437 76.79 133.845 77.13 133.845 165.18 210.811 121.14 210.815 121.14 133.845 165.18"></polyline>
+            <polyline id="Fill-23" fill="#39693F" points="133.845 165.18 133.845 77.13 134.437 76.79 210.815 121.14 133.845 165.18"></polyline>
+            <polyline id="Fill-28" fill="#497941" points="286.945 166.08 286.946 164.9 210.815 121.14 268.069 88.38 344.324 133.17 286.945 166.08"></polyline>
+        </g>
+    </g>
+</svg>
