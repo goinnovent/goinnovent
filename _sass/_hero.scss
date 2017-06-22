@@ -3,8 +3,9 @@
   position: relative;
   height: 126vh;
   background-color: #272826;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-image: url('/images/heros/home.jpg');
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   will-change: all;
@@ -15,38 +16,54 @@
 
   @include mq('medium') {
     height: 174vh;
+    background-attachment: fixed;
   }
 
   h1 {
     margin: 0;
-    font-size: rem(46px);
+    font-size: rem(32px);
     color: #fff;
+
+    @include mq('medium') {
+      font-size: rem(46px);
+    }
+  }
+
+  .slider,
+  .page-header {
+    height: 55vh;
+    padding-left: rem(24px);
+    padding-right: rem(24px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+
+    @include mq('medium') {
+      padding-left: rem(50px);
+      padding-right: rem(50px);
+    }
   }
 
   .slider {
-    height: 60vh;
-    display: flex;
-    padding-left: rem(50px);
-    padding-right: rem(50px);
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    color: #fff;
   }
 
   .page-header {
-    height: 70vh;
-    display: flex;
-    padding-left: rem(50px);
-    padding-right: rem(50px);
-    justify-content: center;
-    flex-direction: column;
-    color: #fff;
+    text-align: left;
+    align-items: flex-start;
+
+    @include mq('medium') {
+      padding-left: rem(50px);
+      padding-right: rem(50px);
+    }
 
     hr {
       width: 250px;
       margin-top: 24px;
       margin-bottom: 24px;
+
     }
 
     p {
