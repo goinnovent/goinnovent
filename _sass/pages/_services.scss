@@ -1,19 +1,46 @@
 .services-wrapper {
   display: flex;
+  flex-direction: column;
   padding-top: 5rem;
   padding-bottom: 5rem;
 
+  @include mq('medium') {
+    flex-direction: row;
+  }
+
+  .services-left,
+  .services-right {
+    width: 100%;
+    padding-bottom: rem(32px);
+
+    @include mq('medium') {
+      width: 49%;
+    }
+  }
+
+  .services-left {
+    @include mq('medium') {
+      padding-right: 2%;
+    }
+  }
+
+  .services-right {
+    @include mq('medium') {
+      padding-right: 0;
+    }
+  }
+
   h2 {
-    font-size: 46px;
+    font-size: rem(46px);
     color: #799A3F;
   }
 
   h3 {
-    font-size: 22px;
+    font-size: rem(22px);
   }
 
   p {
-    margin-bottom: 8px;
+    margin-bottom: rem(8px);
   }
 
   // List Nesting
@@ -22,11 +49,11 @@
   }
 
   ul ul {
-    margin-top: 8px;
+    margin-top: rem(8px);
     margin-left: 4rem;
   }
 
   li {
-    margin-bottom: 8px;
+    margin-bottom: rem(8px);
   }
 }

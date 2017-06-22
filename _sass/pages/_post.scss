@@ -5,14 +5,28 @@
   padding-bottom: 5rem;
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+
+  @include mq('medium') {
+    flex-direction: row;
+  }
 
   .post-images {
-    width: 58%;
-    margin-right: 1%;
+    width: 100%;
+    margin-bottom: rem(24px);
+
+    @include mq('medium') {
+      width: 55%;
+      margin-right: 4%;
+    }
   }
 
   .post-copy {
-    width: 41%;
+    width: 100%;
+
+    @include mq('medium') {
+      width: 41%;
+    }
   }
 
   .post-title {
@@ -30,5 +44,29 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
     width: 50%;
+  }
+
+  .square {
+    position: relative;
+    width: 100%;
+
+    &::after {
+      content: "";
+      display: block;
+      padding-bottom: 100%;
+    }
+  }
+
+  .image-row {
+    display: flex;
+    margin-bottom: 4%;
+
+    .image-col {
+      width: 48%;
+
+      &:first-child {
+        margin-right: 4%;
+      }
+    }
   }
 }
