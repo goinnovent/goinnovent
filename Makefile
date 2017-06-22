@@ -4,4 +4,8 @@ serve:
 deploy:
 	jekyll build && now _site/
 
-.PHONY: serve, deploy
+images:
+	imagemin images/* --out-dir=images
+	imagemin images/heroes/* --out-dir=images/heroes
+
+.PHONY: serve, deploy, images

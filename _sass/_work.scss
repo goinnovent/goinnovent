@@ -32,7 +32,7 @@
     text-align: center;
     display: flex;
     color: #fff;
-    background-color: pink;
+    background-color: #fff;
 
     @include mq('small') {
       width: 50vw;

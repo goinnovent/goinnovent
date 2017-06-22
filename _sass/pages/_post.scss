@@ -49,6 +49,7 @@
   .square {
     position: relative;
     width: 100%;
+    background-size: cover;
 
     &::after {
       content: "";

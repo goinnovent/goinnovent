@@ -13,6 +13,13 @@ glance: |
   - EventApp
 class: m-summit
 work-image: '/images/work/5.jpg'
+images:
+  - /images/work/ifpw-1.jpg
+  - /images/work/ifpw-2.jpg
+  - /images/work/ifpw-3.jpg
+  - /images/work/ifpw-4.jpg
+  - /images/work/ifpw-5.jpg
+  - /images/work/ifpw-6.jpg
 ---
 
 The IFPW CEO Roundtable is a two-day event that occurs annually in a different location around the world. It’s an assembly of Chief Executives of wholesaler and national distribution association members of the International Federation of Pharmaceutical Wholesalers (IFPW) to discuss the opportunities and challenges facing the global pharmaceutical industry and distribution sector.
