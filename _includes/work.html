@@ -1,36 +1,10 @@
 <div class="c-work-wrapper">
-  <div class="c-work m-thoughtspot">
-    <h3 class="text-white">Good Neighbor Pharmacy ThoughtSpot</h3>
-    <hr>
-    <p>Large Scale Event With A Small Community Feel.</p>
-  </div>
+  {% for item in site.work %}
+    {% include work-block.html %}
+  {% endfor %}
 
-  <div class="c-work m-mwi">
-    <h3 class="text-white">MWI Animal Health National Sales Meeting</h3>
-    <hr>
-    <p>Inspiring Sales Associates to Make A Meaningful Impact.</p>
-  </div>
-
-  <div class="c-work m-amerisource">
-    <h3 class="text-white">AmerisourceBergen ThinkForward</h3>
-    <hr>
-    <p>Large Scale Event With A Small Community Feel.</p>
-  </div>
-
-  <div class="c-work m-summit">
-    <h3 class="text-white">4C Summit</h3>
-    <hr>
-    <p>Engaging and Rewarding Top Customers.</p>
-  </div>
-
-  <div class="c-work m-ifpw">
-    <h3 class="text-white">IFPW CEO Roundtable</h3>
-    <hr>
-    <p>Uniting Healthcare Leaders from Around the World.</p>
-  </div>
-
-  <div class="c-work m-contact">
+  <div class="work-block m-contact">
     <h2 class="text-white text-normal mb-6">We’d love to be your partner at your next event.</h2>
-    <a href="#" class="btn btn-outline">Let's Connect</a>
+    <a href="/contact" class="btn btn-outline">Let's Connect</a>
   </div>
 </div>

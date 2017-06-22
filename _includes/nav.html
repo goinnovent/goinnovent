@@ -11,7 +11,7 @@
   <nav class="nav {% if page.layout == "post" %}dark{% endif %}">
     <a href="/" {% if page.title == 'Home' %}class='active'{% endif %}>Home</a>
     <a href="/services" {% if page.title == 'Services' %}class='active'{% endif %}>Services</a>
-    <a href="/work" {% if page.title == 'Work' %}class='active'{% endif %}>Work</a>
+    <a href="/work" {% if page.title == 'Work' or page.category == 'work' %}class='active'{% endif %}>Work</a>
     <a href="/contact" {% if page.title == 'Contact' %}class='active'{% endif %}>Contact</a>
   </nav>
 </header>

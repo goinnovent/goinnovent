@@ -49,3 +49,4 @@ defaults:
       type: work
     values:
       layout: post
+      category: work
