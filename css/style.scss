@@ -25,6 +25,10 @@ html {
   @include mq('small') {
     font-size: 90%;
   }
+
+  @include mq('medium') {
+    font-size: 100%;
+  }
 }
 
 body {
