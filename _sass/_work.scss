@@ -1,17 +1,31 @@
 .c-work-wrapper {
   display: flex;
   flex-wrap: wrap;
-  
+  flex-direction: column;
+
+  @include mq('small') {
+    flex-direction: row;
+  }
+
   .c-work {
-    width: 33.333vw;
-    height: 33.333vw;
     padding: 33px;
+    height: 80vw;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: #fff;
+
+    @include mq('small') {
+      width: 50vw;
+      height: 50vw;
+    }
+
+    @include mq('large') {
+      width: 33.333vw;
+      height: 33.333vw;
+    }
 
     hr {
       width: 102px;

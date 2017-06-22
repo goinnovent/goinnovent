@@ -1,13 +1,42 @@
 .c-feature-wrapper {
-  padding-top: 60px;
-  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: rem(60px);
+  margin-bottom: rem(80px);
 
   .c-feature {
-    flex: 1;
-    padding-right: 60px;
+    padding-bottom: 40px;
+
+    @include mq('medium') {
+      width: 33%;
+      padding-right: rem(20px);
+      padding-bottom: rem(20px);
+
+      &:last-child {
+        padding-right: 0;
+      }
+    }
 
     &:last-child {
       padding-right: 0;
     }
+
+    .feature-icon {
+      width: rem(44px);
+
+      img {
+        max-width: rem(44px);
+      }
+    }
+
+    .feature-copy {
+      flex: 1;
+    }
+  }
+
+  // Small
+  @include mq('small') {
+    flex-direction: row;
   }
 }

@@ -5,10 +5,26 @@ $accent: #6C9557;
 $body-text: #474645;
 $header-text: #474645;
 
+$breakpoints: (
+  'small': ( min-width: 544px ),
+  'medium': ( min-width: 767px ),
+  'large': ( min-width: 992px )
+) !default;
+
+@import "mixins";
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+html {
+  font-size: 85%;
+
+  @include mq('small') {
+    font-size: 90%;
+  }
 }
 
 body {
@@ -19,11 +35,26 @@ body {
 .topbar {
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding-top: 42px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-top: rem(42px);
+  padding-left: rem(20px);
+  padding-right: rem(20px);
+
+  @include mq('medium') {
+    flex-direction: row;
+  }
+
+  @include mq('large') {
+    padding-top: rem(42px);
+    padding-left: rem(50px);
+    padding-right: rem(50px);
+  }
+
+  .logo {
+    margin-bottom: rem(30px);
+  }
 
   .nav {
     font-weight: 700;
@@ -31,9 +62,9 @@ body {
     a {
       color: #fff;
       text-decoration: none;
-      font-size: 18px;
-      margin-right: 32px;
-      padding-bottom: 8px;
+      font-size: rem(18px);
+      margin-right: rem(32px);
+      padding-bottom: rem(8px);
 
       &:last-child {
         margin-right: 0;

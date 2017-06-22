@@ -1,6 +1,6 @@
 .post-content {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: rem(50px);
+  padding-right: rem(50px);
   padding-top: 5rem;
   padding-bottom: 5rem;
   display: flex;
@@ -16,11 +16,11 @@
   }
 
   .post-title {
-    font-size: 28px;
+    font-size: rem(28px);
   }
 
   .post-desc {
-    font-size: 46px;
+    font-size: rem(46px);
     line-height: 1.25;
     max-width: 80%;
     margin-bottom: 80px;
