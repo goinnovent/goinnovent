@@ -26,7 +26,8 @@ input {
     transition: .4s ease-out;
   }
 
-  &:hover {
+  &:hover,
+  &:focus {
     span {
       opacity: 1;
     }
