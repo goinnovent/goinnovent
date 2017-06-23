@@ -71,3 +71,13 @@ if (wallopEl) {
     element.className = element.className.replace(className, '');
   }
 }
+
+var workItems = Array.prototype.slice.call(
+  document.querySelectorAll('.work-block')
+);
+
+workItems.forEach(function(el, index) {
+  el.addEventListener('touchstart', function(event) {
+    console.log('touched');
+  });
+});
