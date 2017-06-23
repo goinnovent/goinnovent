@@ -4,7 +4,7 @@ description: Uniting healthcare leaders from around the world.
 attendee: Members | Board of Directors
 services: Strategy, Creative & Implementation
 years: 1
-glance: |
+glance_text: |
   - 60+Attendees
   - High-touch, Personalized Experiences
   - GeneralSession

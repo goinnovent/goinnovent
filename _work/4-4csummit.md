@@ -4,7 +4,7 @@ description: Engaging and rewarding top customers.
 attendee: Customers | Associates
 services: Strategy, Creative & Implementation
 years: 1
-glance: |
+glance_text: |
   - 300+ Customers
   - 50+Associates
   - High-touch, Personalized Experiences
@@ -13,7 +13,6 @@ glance: |
   - Nightly Dinner Receptions
   - LocalActivities
   - Interactive Stations
-class: m-summit
 work-image: "/images/work/4.jpg"
 work-alt: image
 work-title: 4C Summit

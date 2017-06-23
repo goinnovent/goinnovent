@@ -28,9 +28,6 @@ about:
     For an event to be successful, it’s essential to have a well-thought out and objective-focused roadmap. This roadmap is connective from the time the event conceives until long after the last attendee departs. This tactical approach creates a stronger connection between your brand and attendees, and is what we refer to as an event continuum.
 
     **We create events that connect brands to audiences in powerful ways. Every service we offer throughout the event continuum roadmap is uniquely designed to deliver a seamless and integrated story and ultimately, maximize ROI.**
-connect:
-  text: We’d love to be your partner at your next event.
-  button: Let's Connect
 layout: home
 ---
 

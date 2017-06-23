@@ -4,7 +4,7 @@ description: Large scale event with a small community feel.
 attendee: Customers | Prospects | Vendors | Associates
 services: Strategy, Creative & Implementation
 years: 8
-glance: |
+glance_text: |
   - 3500+ Customers
   - 550+Vendors
   - 450+ Sales Associates
@@ -15,11 +15,7 @@ glance: |
   - 40+ Education Courses
   - Opening Night Party
   - Closing Night Party
-class: m-summit
 work-image: "/images/work/1.jpg"
-work-alt: image
-work-title: Good Neighbor Pharmacy ThoughtSpot
-work-desc: Large scale event with a small community feel.
 images:
 - "/images/work/thought-1.jpg"
 - "/images/work/thought-2.jpg"

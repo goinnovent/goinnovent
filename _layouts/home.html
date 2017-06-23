@@ -16,20 +16,16 @@
           <img src="/images/about-star.svg" alt="" class="expand">
         </div>
         <div class="about-right">
-          <h1 class="pa-0">Making Every Moment Count</h1>
+          <h1 class="pa-0">{{ page.about.title }}</h1>
 
           <hr>
 
           <h2 class="h3 mb-3">Innovent</h2>
           <p class="mb-1">[in-uh-vent]<span class="about-vert-spacer">|</span>Noun</p>
-          <p class="text-light mb-4">The fusion of innovation, invention and event.</p>
+          <p class="text-light mb-4">{{ page.about.meaning }}</p>
 
           <div class="about-copy">
-            <p>Innovent creates experiences that move our clients’ business forward. Our clients are inundated with other projects and need their events to produce results, but they lack the time and resources to focus on the strategic and creative aspects of every event. Innovent fixes this issue with proactive and comprehensive services that have been proven successful time and time again.</p>
-
-            <p>For an event to be successful, it’s essential to have a well-thought out and objective-focused roadmap. This roadmap is connective from the time the event conceives until long after the last attendee departs. This tactical approach creates a stronger connection between your brand and attendees, and is what we refer to as an event continuum.</p>
-
-            <p><strong>We create events that connect brands to audiences in powerful ways. Every service we offer throughout the event continuum roadmap is uniquely designed to deliver a seamless and integrated story and ultimately, maximize ROI.</strong></p>
+            {{ page.about.text | markdownify }}
           </div>
         </div>
       </div>

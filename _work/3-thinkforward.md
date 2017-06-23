@@ -4,7 +4,7 @@ description: Shaping the future through millennial insight.
 attendee: Associates
 services: Strategy, Creative & Implementation
 years: 1
-glance: |
+glance_text: |
   - 100 Top Millennial Associates
   - EventApp
   - Interactive Breakout Sessions

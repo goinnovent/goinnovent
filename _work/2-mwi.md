@@ -4,7 +4,7 @@ description: Inspiring sales associates to make a meaningful impact.
 attendee: Associates | Vendors
 services: Strategy, Creative & Implementation
 years: 2
-glance: |
+glance_text: |
   - 700+ Sales Associates
   - 200+Vendors
   - EventApp
@@ -14,7 +14,6 @@ glance: |
   - Vendor Appreciation Party
   - Trade Show
   - AnnualAwards
-class: m-summit
 work-image: "/images/work/2.jpg"
 images:
 - "/images/work/nsm-1.jpg"
