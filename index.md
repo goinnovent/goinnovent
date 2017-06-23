@@ -8,7 +8,7 @@ slides:
 - Proactive planning with peace of mind execution.
 services:
 - title: Strategy becomes action
-  desc: Proactive, flexible and always strategic ... our proven processes are designed
+  desc: Proactive, flexible and always strategic. Our proven processes are designed
     to maximize ROI.
   image: "/uploads/chess-icon.svg"
 - title: Creativity that inspires
@@ -20,7 +20,7 @@ services:
     ways that drive action across every aspect of the event.
   image: "/uploads/circle-icon.svg"
 about:
-  title: Making Every Moment Count
+  title: Making every moment count
   meaning: The fusion of innovation, invention and event.
   text: |-
     Innovent creates experiences that move our clients’ business forward. Our clients are inundated with other projects and need their events to produce results, but they lack the time and resources to focus on the strategic and creative aspects of every event. Innovent fixes this issue with proactive and comprehensive services that have been proven successful time and time again.
