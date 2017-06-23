@@ -6,13 +6,12 @@ services: Strategy, Creative & Implementation
 years: 1
 glance_text: |
   - 100 Top Millennial Associates
-  - EventApp
+  - Event App
   - Interactive Breakout Sessions
-  - CommunityInvolvementActivities
-  - GeneralSessions
+  - Community Involvement Activities
+  - General Sessions
   - Breakout Sessions
   - Welcome Party
-class: m-summit
 work-image: "/images/work/3.jpg"
 images:
 - "/images/work/think-1.jpg"
