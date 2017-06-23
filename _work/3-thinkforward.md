@@ -13,7 +13,7 @@ glance: |
   - Breakout Sessions
   - Welcome Party
 class: m-summit
-work-image: "/images/work/4.jpg"
+work-image: "/images/work/3.jpg"
 images:
 - "/images/work/think-1.jpg"
 - "/images/work/think-2.jpg"

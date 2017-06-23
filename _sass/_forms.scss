@@ -1,0 +1,16 @@
+label {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: rem(16px);
+  padding: rem(12px);
+  font-size: rem(16px);
+
+  &:focus {
+    outline: none;
+  }
+}

@@ -19,6 +19,8 @@
 /* Demo styles for pagination */
 .Wallop-pagination {
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .Wallop-dot {
@@ -32,9 +34,15 @@
   background: transparent;
   fill: #fff;
   cursor: pointer;
+  display: block;
 
   &:focus {
     outline: none;
+  }
+
+  svg {
+    width: 100%;
+    height: 100%;
   }
 }
 
