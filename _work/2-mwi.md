@@ -6,14 +6,14 @@ services: Strategy, Creative & Implementation
 years: 2
 glance_text: |
   - 700+ Sales Associates
-  - 200+Vendors
-  - EventApp
-  - GeneralSessions
+  - 200+ Vendors
+  - Event App
+  - General Sessions
   - Breakout Sessions
   - Welcome Party
   - Vendor Appreciation Party
   - Trade Show
-  - AnnualAwards
+  - Annual Awards
 work-image: "/images/work/2.jpg"
 images:
 - "/images/work/nsm-1.jpg"
