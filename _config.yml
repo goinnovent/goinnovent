@@ -1,6 +1,6 @@
 ---
 title: Go Innovent
-timezone: UTC
+timezone: America/Chicago
 collections:
   posts:
     title: Posts
@@ -24,8 +24,8 @@ description: 'Write an awesome description for your new site here. You can edit 
   results) and in your feed.xml site description.
 
 '
-baseurl: ''
-url: ''
+baseurl: 
+url: http://goinnovent.com/
 markdown: kramdown
 exclude:
 - Gemfile
