@@ -16,17 +16,17 @@ glance: |
   - Opening Night Party
   - Closing Night Party
 class: m-summit
-work-image: '/images/work/1.jpg'
-work-alt: 'image'
+work-image: "/images/work/1.jpg"
+work-alt: image
 work-title: Good Neighbor Pharmacy ThoughtSpot
 work-desc: Large scale event with a small community feel.
 images:
-  - /images/work/thought-1.jpg
-  - /images/work/thought-2.jpg
-  - /images/work/thought-3.jpg
-  - /images/work/thought-4.jpg
-  - /images/work/thought-5.jpg
-  - /images/work/thought-6.jpg
+- "/images/work/thought-1.jpg"
+- "/images/work/thought-2.jpg"
+- "/images/work/thought-3.jpg"
+- "/images/work/thought-4.jpg"
+- "/images/work/thought-5.jpg"
+- "/images/work/thought-6.jpg"
 ---
 
 ThoughtSpot is the annual, four-day conference and trade show hosted by Good Neighbor Pharmacy. It brings together 4,500+ attendees, including current Good Neighbor Pharmacy customers, prospects, vendors/manufacturers and internal sales associates. The main objective of ThoughtSpot is to deliver customized and personalized experiences for customers that strengthen their relationship with Good Neighbor Pharmacy. Customers attend this annual event to benefit from expert guidance through practical and educational content, diversify their revenue through buying opportunities on the trade show floor, network with peers and subject manner experts and enjoy entertainment in lively Las Vegas! Vendors exhibit at ThoughtSpot to capitalize on selling and brand-building opportunities by gaining access to the independent pharmacists who attend the event.

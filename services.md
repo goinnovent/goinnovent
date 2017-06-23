@@ -2,7 +2,9 @@
 title: Services
 layout: services
 heroTitle: Event strategically.
-heroText: We recognize that every event is unique and each client has different needs. Our methodology is scalable to meet the demands of any corporate event. Our suite of strategic event services is built around our Innovent Continuum.
+heroText: We recognize that every event is unique and each client has different needs.
+  Our methodology is scalable to meet the demands of any corporate event. Our suite
+  of strategic event services is built around our Innovent Continuum.
 ---
 
 ### What is the Innovent Continuum?
