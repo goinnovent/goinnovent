@@ -1,5 +1,5 @@
 ---
-title: Good Neighbor Pharmacy ThoughtSpot
+title: <em>Good Neighbor Pharmacy</em> ThoughtSpot
 description: Large scale event with a small community feel.
 attendee: Customers | Prospects | Vendors | Associates
 services: Strategy, Creative & Implementation
