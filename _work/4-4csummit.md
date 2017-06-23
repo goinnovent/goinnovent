@@ -6,17 +6,14 @@ services: Strategy, Creative & Implementation
 years: 1
 glance_text: |
   - 300+ Customers
-  - 50+Associates
+  - 50+ Associates
   - High-touch, Personalized Experiences
   - General Sessions
   - Workshop Sessions
   - Nightly Dinner Receptions
-  - LocalActivities
+  - Local Activities
   - Interactive Stations
 work-image: "/images/work/4.jpg"
-work-alt: image
-work-title: 4C Summit
-work-desc: Engaging and Rewarding Top Customers.
 images:
 - "/images/work/4c-1.jpg"
 - "/images/work/4c-2.jpg"
