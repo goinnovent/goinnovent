@@ -1,0 +1,51 @@
+.Wallop {
+  height: 55vh;
+  padding-left: rem(24px);
+  padding-right: rem(24px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+
+  hr {
+    width: rem(250px);
+    margin: 1rem auto;
+  }
+}
+
+.Wallop-item img { width: 100%; }
+
+/* Demo styles for pagination */
+.Wallop-pagination {
+  text-align: center;
+}
+
+.Wallop-dot {
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+  margin: 5px;
+  width: 6px;
+  height: 6px;
+  background: transparent;
+  fill: #fff;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.Wallop-dot--current svg {
+  fill: #7B9A62;
+}
+
+.Wallop-item {
+  display: none;
+}
+
+.Wallop-item--current {
+  display: block;
+}
