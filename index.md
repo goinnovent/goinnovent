@@ -20,5 +20,12 @@ services:
     ways that drive action across every aspect of the event.
   image: "/uploads/circle-icon.svg"
 layout: home
+about:
+  title: ''
+  meaning: ''
+  text: ''
+connect:
+  text: ''
+  button: ''
 ---
 
