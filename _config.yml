@@ -24,7 +24,7 @@ description: 'Write an awesome description for your new site here. You can edit 
   results) and in your feed.xml site description.
 
 '
-baseurl: 
+baseurl:
 url: http://goinnovent.com/
 markdown: kramdown
 exclude:
@@ -40,3 +40,9 @@ permalink: "/:title/"
 linkedin: https://www.linkedin.com/company-beta/11147866/
 twitter: ''
 instagram: ''
+footer_address:
+  address1: 1920 N. Coit Road
+  address2: Suite 200-167
+  city: Richardson
+  state: Texas
+  zip: 75080

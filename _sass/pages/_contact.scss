@@ -8,3 +8,19 @@
     margin-bottom: 2em;
   }
 }
+
+.contact-footer {
+  margin-top: 3em;
+  margin-bottom: 6rem;
+
+  p {
+    position: relative;
+    display: inline-block;
+
+    span {
+      position: absolute;
+      right: -108px;
+      bottom: -40px;
+    }
+  }
+}
