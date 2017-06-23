@@ -1,4 +1,4 @@
-<div class="hero">
+<div class="hero" {% if page.hero_image %}style="background-image: url('{{ page.hero_image }}');"{% endif %}>
   {% include nav.html %}
 
   <div class="Wallop">
