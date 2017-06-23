@@ -90,4 +90,10 @@
   @include mq('medium') {
     min-height: rem(653px);
   }
+
+  @include mq('large') {
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: bottom left;
+  }
 }
