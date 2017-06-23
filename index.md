@@ -1,7 +1,6 @@
 ---
 title: Home
-layout: home
-hero_image: ''
+hero_image: "/uploads/home.jpg"
 slides:
 - Event strategically.
 - Designed to measure & maximize ROI.
@@ -11,6 +10,7 @@ services:
 - title: Strategy becomes action
   desc: Proactive, flexible and always strategic ... our proven processes are designed
     to maximize ROI.
-  image: ''
+  image: "/uploads/chess-icon.svg"
+layout: home
 ---
 
