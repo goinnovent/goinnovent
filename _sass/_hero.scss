@@ -78,16 +78,16 @@
   left: 0;
   right: 0;
   width: 100%;
-  min-height: 320px;
+  min-height: rem(320px);
   will-change: auto;
   background: transparent url('/images/hero.svg') no-repeat bottom center;
   background-size: cover;
 
   @include mq('small') {
-    min-height: 480px;
+    min-height: rem(480px);
   }
 
   @include mq('medium') {
-    min-height: 642px;
+    min-height: rem(653px);
   }
 }
