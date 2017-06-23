@@ -1,69 +1,73 @@
 var wallopEl = document.querySelector('.Wallop');
-var wallop = new Wallop(wallopEl);
 
-// To start Autoplay, just call the function below
-// and pass in the number of seconds as interval
-// if you want to start autoplay after a while
-// you can wrap this in a setTimeout(); function
-autoplay(3000);
+if (wallopEl) {
+  var wallop = new Wallop(wallopEl);
 
-// This a a helper function to build a simple
-// auto-play functionality.
-function autoplay(interval) {
-  var lastTime = 0;
+  // To start Autoplay, just call the function below
+  // and pass in the number of seconds as interval
+  // if you want to start autoplay after a while
+  // you can wrap this in a setTimeout(); function
+  autoplay(5000);
 
-  function frame(timestamp) {
-    var update = timestamp - lastTime >= interval;
+  // This a a helper function to build a simple
+  // auto-play functionality.
+  function autoplay(interval) {
+    var lastTime = 0;
 
-    if (update) {
-      wallop.next();
-      lastTime = timestamp;
+    function frame(timestamp) {
+      var update = timestamp - lastTime >= interval;
+
+      if (update) {
+        wallop.next();
+        lastTime = timestamp;
+      }
+
+      requestAnimationFrame(frame);
     }
 
     requestAnimationFrame(frame);
   }
 
-  requestAnimationFrame(frame);
-}
+  var paginationDots = Array.prototype.slice.call(
+    document.querySelectorAll('.Wallop-dot')
+  );
 
-var paginationDots = Array.prototype.slice.call(
-  document.querySelectorAll('.Wallop-dot')
-);
-
-/*
-Attach click listener on the dots
-*/
-paginationDots.forEach(function(dotEl, index) {
-  dotEl.addEventListener('click', function() {
-    wallop.goTo(index);
+  /*
+  Attach click listener on the dots
+  */
+  paginationDots.forEach(function(dotEl, index) {
+    dotEl.addEventListener('click', function() {
+      wallop.goTo(index);
+    });
   });
-});
 
-/*
-Listen to wallop change and update classes
-*/
-wallop.on('change', function(event) {
-  removeClass(
-    document.querySelector('.Wallop-dot--current'),
-    'Wallop-dot--current'
-  );
-  addClass(
-    paginationDots[event.detail.currentItemIndex],
-    'Wallop-dot--current'
-  );
-});
+  /*
+  Listen to wallop change and update classes
+  */
+  wallop.on('change', function(event) {
+    removeClass(
+      document.querySelector('.Wallop-dot--current'),
+      'Wallop-dot--current'
+    );
+    addClass(
+      paginationDots[event.detail.currentItemIndex],
+      'Wallop-dot--current'
+    );
+  });
 
-// Helpers
-function addClass(element, className) {
-  if (!element) {
-    return;
+  // Helpers
+  function addClass(element, className) {
+    if (!element) {
+      return;
+    }
+    element.className =
+      element.className.replace(/\s+$/gi, '') + ' ' + className;
   }
-  element.className = element.className.replace(/\s+$/gi, '') + ' ' + className;
-}
 
-function removeClass(element, className) {
-  if (!element) {
-    return;
+  function removeClass(element, className) {
+    if (!element) {
+      return;
+    }
+    element.className = element.className.replace(className, '');
   }
-  element.className = element.className.replace(className, '');
 }

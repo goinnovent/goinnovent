@@ -119,6 +119,7 @@ body {
 // General
 @import "type";
 @import "buttons";
+@import "forms";
 
 // Utilities
 @import "utilities/flex";
@@ -140,6 +141,7 @@ body {
 // Pages
 @import "pages/services";
 @import "pages/post";
+@import "pages/contact";
 
 // Slider
 @import "wallop";
