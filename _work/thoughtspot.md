@@ -9,9 +9,9 @@ glance_text: |
   - 550+ Vendors
   - 450+ Sales Associates
   - Two Trade Show Floors
-  - EventApp
+  - Event App
   - Sponsorship Opportunities
-  - GeneralSession
+  - General Session
   - 40+ Education Courses
   - Opening Night Party
   - Closing Night Party
