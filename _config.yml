@@ -1,5 +1,5 @@
 ---
-title: Go Innovent
+title: Innovent Creative LLC
 timezone: America/Chicago
 collections:
   posts:
@@ -24,15 +24,13 @@ description: 'Write an awesome description for your new site here. You can edit 
   results) and in your feed.xml site description.
 
 '
-baseurl: 
+baseurl:
 url: http://goinnovent.com/
 markdown: kramdown
 exclude:
 - Gemfile
 - Gemfile.lock
 - node_modules
-- now.json
-- Makefile
 - ".gitignore"
 - ".git"
 - ".editorconfig"
