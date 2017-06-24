@@ -43,6 +43,10 @@
     margin-bottom: rem(8px);
   }
 
+  p + p {
+    margin-top: rem(24px);
+  }
+
   // List Nesting
   ul {
     margin-left: 3rem;
