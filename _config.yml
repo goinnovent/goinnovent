@@ -1,7 +1,6 @@
 ---
 title: Innovent Creative LLC
 timezone: America/Chicago
-encoding: utf-8
 collections:
   posts:
     title: Posts
@@ -20,10 +19,11 @@ defaults:
   values:
     layout: post
     category: work
+encoding: utf-8
 description: We create events that connect brands to audiences in powerful ways. Every
   service we offer throughout the Event Continuum roadmap is uniquely designed to
   deliver a seamless and integrated story and ultimately, maximize ROI.
-baseurl:
+baseurl: 
 url: http://goinnovent.netlify.com/
 markdown: kramdown
 exclude:
@@ -53,4 +53,3 @@ assets:
   autoprefixer:
     browsers:
     - "> 1%"
-
