@@ -14,8 +14,13 @@
   margin-bottom: 6rem;
 
   p {
+    font-size: 1.2rem;
     position: relative;
     display: inline-block;
+
+    @include mq('small') {
+      font-size: 1.625rem;
+    }
 
     span {
       position: absolute;
