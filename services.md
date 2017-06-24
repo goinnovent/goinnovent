@@ -5,25 +5,85 @@ hero_title: Event strategically.
 hero_text: We recognize that every event is unique and each client has different needs.
   Our methodology is scalable to meet the demands of any corporate event. Our suite
   of strategic event services is built around our Innovent Continuum.
-layout: services
 stategy:
   title: Strategy
   subtitle: The fusion of innovation, invention and event.
   text: |-
-    Innovent creates experiences that move our clients’ business forward. Our clients are inundated with other projects and need their events to produce results, but they lack the time and resources to focus on the strategic and creative aspects of every event. Innovent fixes this issue with proactive and comprehensive services that have been proven successful time and time again.
+    **Event Goals and Objectives**
 
-    For an event to be successful, it’s essential to have a well-thought out and objective-focused roadmap. This roadmap is connective from the time the event conceives until long after the last attendee departs. This tactical approach creates a stronger connection between your brand and attendees, and is what we refer to as an event continuum.
+    - Clearly Defined Goals and Objectives
+    - Determine How ROI Will Be Measured
 
-    **We create events that connect brands to audiences in powerful ways. Every service we offer throughout the event continuum roadmap is uniquely designed to deliver a seamless and integrated story and ultimately, maximize ROI.**
+    **Messaging Architecture**
+
+    - Target Audience Insights
+    - Key Takeaway Message
+    - Supporting Messages
+
+    **Brand Infusion Development**
+
+    - Brand Identity Board
+    - Brand Assets
+      - Templates (Presentation, Email, Letterhead)
+      - Badges
+      - Lanyards
+      - Onsite Signage Templates
+      - Event App Designs
+
+    **Innovent Continuum**
+
+    - Key Messages for:
+      - Communication Plan
+      - Registration Website
+      - Speaker Presentations
+    - Recommendations for:
+      - Agenda/General Session Run of Show
+      - Onsite Collateral
+      - Onsite Engagement Initiatives
+      - Post-event Initiatives
+    - ROI Measurement Plan
 implementation:
   title: Implementation
   subtitle: Roadmap for putting the Innovent Continuum into action.
   text: |-
-    Innovent creates experiences that move our clients’ business forward. Our clients are inundated with other projects and need their events to produce results, but they lack the time and resources to focus on the strategic and creative aspects of every event. Innovent fixes this issue with proactive and comprehensive services that have been proven successful time and time again.
+    Deliverables include content, design and execution
 
-    For an event to be successful, it’s essential to have a well-thought out and objective-focused roadmap. This roadmap is connective from the time the event conceives until long after the last attendee departs. This tactical approach creates a stronger connection between your brand and attendees, and is what we refer to as an event continuum.
+    Pre-Event
 
-    **We create events that connect brands to audiences in powerful ways. Every service we offer throughout the event continuum roadmap is uniquely designed to deliver a seamless and integrated story and ultimately, maximize ROI.**
+    Communication Plan
+    Registration Website (using a third-party software provider)
+    Event App (using a third-party software provider)
+    Agenda
+    Event Dress (All Onsite Signage)
+    Onsite Collateral
+    Sponsorship Guide
+    Speaker Packets
+    Presentation Development
+    Video Development (using a third-party production team)
+    Onsite Engagement Initiatives
+    Stage, Set Design and Renderings
+    Technical Drawings and Design (using a third-party production team)
+    Vendor Management
+    Onsite
+
+    Event App Communication Plan
+    Event App Management
+    Event Dress Management (All Onsite Signage)
+    Vendor Management
+    Stage/Show Flow Management (Run of Show)
+    Presentation Plans
+    Presentation Editing
+    Music, Lighting, Color Design
+    Production Operations and Logistics
+    Audio Visual Services and Staging (using a third-party production team)
+    Post-Event
+
+    Communication Plan
+    Post-event Survey
+    ROI and Insights Report
+    Collateral Recommendations
+    Integrated Marketing Recommendations
+layout: services
 ---
 
 ### What is the Innovent Continuum?
