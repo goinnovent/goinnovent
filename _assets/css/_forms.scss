@@ -12,6 +12,8 @@ input {
   font-size: rem(16px);
   border: 0;
   border-top: 1px solid #474645;
+  border-radius: 0;
+  box-shadow: 0;
 
   &:focus {
     outline: none;
