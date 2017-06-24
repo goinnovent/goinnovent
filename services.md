@@ -46,43 +46,45 @@ implementation:
   title: Implementation
   subtitle: Roadmap for putting the Innovent Continuum into action.
   text: |-
-    Deliverables include content, design and execution
+    **Deliverables include content, design and execution**
 
-    Pre-Event
+    **Pre-Event**
 
-    Communication Plan
-    Registration Website (using a third-party software provider)
-    Event App (using a third-party software provider)
-    Agenda
-    Event Dress (All Onsite Signage)
-    Onsite Collateral
-    Sponsorship Guide
-    Speaker Packets
-    Presentation Development
-    Video Development (using a third-party production team)
-    Onsite Engagement Initiatives
-    Stage, Set Design and Renderings
-    Technical Drawings and Design (using a third-party production team)
-    Vendor Management
-    Onsite
+    - Communication Plan
+    - Registration Website (using a third-party software provider)
+    - Event App (using a third-party software provider)
+    - Agenda
+    - Event Dress (All Onsite Signage)
+    - Onsite Collateral
+    - Sponsorship Guide
+    - Speaker Packets
+    - Presentation Development
+    - Video Development (using a third-party production team)
+    - Onsite Engagement Initiatives
+    - Stage, Set Design and Renderings
+    - Technical Drawings and Design (using a third-party production team)
+    - Vendor Management
 
-    Event App Communication Plan
-    Event App Management
-    Event Dress Management (All Onsite Signage)
-    Vendor Management
-    Stage/Show Flow Management (Run of Show)
-    Presentation Plans
-    Presentation Editing
-    Music, Lighting, Color Design
-    Production Operations and Logistics
-    Audio Visual Services and Staging (using a third-party production team)
-    Post-Event
+    **Onsite**
 
-    Communication Plan
-    Post-event Survey
-    ROI and Insights Report
-    Collateral Recommendations
-    Integrated Marketing Recommendations
+    - Event App Communication Plan
+    - Event App Management
+    - Event Dress Management (All Onsite Signage)
+    - Vendor Management
+    - Stage/Show Flow Management (Run of Show)
+    - Presentation Plans
+    - Presentation Editing
+    - Music, Lighting, Color Design
+    - Production Operations and Logistics
+    - Audio Visual Services and Staging (using a third-party production team)
+
+    **Post-Event**
+
+    - Communication Plan
+    - Post-event Survey
+    - ROI and Insights Report
+    - Collateral Recommendations
+    - Integrated Marketing Recommendations
 layout: services
 ---
 
