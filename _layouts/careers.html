@@ -8,7 +8,11 @@
     {% include hero.html %}
     {% include home/feature.html %}
 
-    {{ content }}
+    <div class="container">
+      <div class="prose measure-wide">
+        {{ content }}
+      </div>
+    </div>
 
     {% include work.html %}
   </div>
