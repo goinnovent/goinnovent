@@ -12,7 +12,7 @@
         {% for item in site.careers %}
           <h3>{{ item.title }}</h3>
 
-          {{ item.body | markdownify }}
+          {{ item.content | markdownify }}
         {% endfor %}
       </div>
     </div>
