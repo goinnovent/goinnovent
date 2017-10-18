@@ -9,7 +9,11 @@
 
     <div class="container mb-5 mt-5 pb-5">
       <div class="prose measure-wide">
-        {{ content }}
+        {% for item in site.careers %}
+          <h3>{{ item.title }}</h3>
+
+          {{ item.body | markdownify }}
+        {% endfor %}
       </div>
     </div>
 
