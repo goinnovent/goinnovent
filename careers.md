@@ -50,6 +50,8 @@ we offer throughout the event continuum roadmap is uniquely designed to deliver 
 - Work with great people in a fast pace environment
 - Be a part of a team that is transforming the way our clients are bringing their brand to life.
 
+<br/><br/>
+
 ### Designer
 
 **Position Description:**
