@@ -5,18 +5,15 @@ date: 2017-10-17 20:29:00 -05:00
 
 **Position Description:**
 
-Innovent is seeking an experienced Designer to join our rapidly growing team. The Designer will be responsible for making custom graphics for print and web to be used for pre-event marketing and on-site branding. This position will work directly with our Associate Creative Director, Engagement Managers, and fellow Designers to turn concepts into well designed brand experiences for attendees. The Designer should demonstrate great attention to detail and be a self-starter to succeed.
+Innovent is seeking an experienced Designer to join our rapidly growing team. The Designer will be responsible for making custom graphics for print and web to be used for pre-event marketing and on-site branding. This position will work directly with our Associate Creative Director, Engagement Managers, and fellow Designers to turn concepts into well-designed brand experiences for attendees. The Designer should demonstrate great attention to detail and be a self-starter to succeed.
 
 **What we do:**
 
-Innovent creates experiences that move our clients’ business forward. Our clients are inundated with other projects and need their events to produce results, but they lack the time and resources to focus on the strategic and creative aspects of every event. Innovent fixes this issue with proactive and comprehensive services that have been proven successful time and time again
+Innovent creates experiences that move our clients’ business forward. Our clients are inundated with other projects and need their events to produce results, but they lack the time and resources to focus on the strategic and creative aspects of every event. Innovent fixes this issue with proactive and comprehensive services that have been proven successful time and time again.
 
-For an event to be successful, it’s essential to have a well-thought out and
-objective-focused roadmap. This roadmap is connective from the time the event
-conceives until long after the last attendee departs. This tactical approach creates a stronger connection between your brand and attendees, and is what we refer to as an event continuum.
+For an event to be successful, it’s essential to have a well-thought-out and objective-focused roadmap. This roadmap is connective from the time the event conceives until long after the last attendee departs. This tactical approach creates a stronger connection between your brand and attendees, and is what we refer to as an event continuum.
 
-We create events that connect brands to audiences in powerful ways. Every service
-we offer throughout the event continuum roadmap is uniquely designed to deliver a seamless and integrated story and ultimately, maximize ROI.
+We create events that connect brands to audiences in powerful ways. Every service we offer throughout the event continuum roadmap is uniquely designed to deliver a seamless and integrated story and ultimately, maximize ROI.
 
 **Requirements:**
 
@@ -28,5 +25,5 @@ we offer throughout the event continuum roadmap is uniquely designed to deliver 
 
 - Health insurance, vision, and dental
 - Flexible paid time off policy
-- Work with great people in a fast pace environment
+- Work with great people in a fast-paced environment
 - Be a part of a team that is transforming the way our clients are bringing their brand to life.
