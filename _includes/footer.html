@@ -19,7 +19,7 @@
     <p>{{ site.footer_address.address1 }}<span>|</span>{{ site.footer_address.address2 }}<span>|</span>{{ site.footer_address.city }}, {{ site.footer_address.state }}<span>|</span>{{ site.footer_address.zip }}</p>
   </div>
 
-  <p class="copyright">© Copyright 2017<span>|</span>Innovent Creative LLC</p>
+  <p class="copyright">© Copyright {{ "now" | date: "%Y" }}<span>|</span>Innovent Creative LLC</p>
 </footer>
 
 <script src="https://unpkg.com/wallop@2.4.1"></script>
