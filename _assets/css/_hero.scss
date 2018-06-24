@@ -62,7 +62,6 @@
       width: 250px;
       margin-top: 24px;
       margin-bottom: 24px;
-
     }
 
     p {
@@ -73,7 +72,7 @@
 }
 
 .hero-split {
-	position: absolute;
+  position: absolute;
   bottom: -10px;
   left: 0;
   right: 0;
@@ -95,5 +94,13 @@
     background-size: contain;
     background-repeat: repeat-x;
     background-position: bottom left;
+  }
+}
+
+.company-info {
+  span {
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }

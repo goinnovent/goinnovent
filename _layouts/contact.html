@@ -9,11 +9,6 @@
 
     <div class="container contact-wrapper">
       <h1>Contact form</h1>
-      {% if site.careers %}
-      <div class="mt-2">
-        <p>Looking for a new career? We have <a href="/careers">several positions</a> available!</p>
-      </div>
-      {% endif %}
       <hr>
 
       <form name="contact" action="thank-you" netlify>
@@ -42,6 +37,12 @@
           <button type="submit" class="btn">Send</button>
         </div>
       </form>
+
+      {% if site.careers %}
+      <div class="mt-4">
+        <p>Looking for a new career? We have <a href="/careers">several positions</a> available!</p>
+      </div>
+      {% endif %}
 
       <div class="contact-footer">
         <h2 class="text-accent">Want to learn more?</h2>

@@ -5,6 +5,12 @@
     <h1>{{ page.hero_title }}</h1>
     <hr>
     <p>{{ page.hero_text }}</p>
+
+    {% if page.title == "Contact" %}
+      <div class="company-info my-4">
+        <p>{{ site.footer_address.address1 }}<span>|</span>{{ site.footer_address.address2 }}<span>|</span>{{ site.footer_address.city }}, {{ site.footer_address.state }}<span>|</span>{{ site.footer_address.zip }}</p>
+      </div>
+    {% endif %}
   </div>
 
   <div class="hero-split">
