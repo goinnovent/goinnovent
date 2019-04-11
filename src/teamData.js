@@ -90,7 +90,7 @@ const teamData = [
     bgHover: "blue",
   },
   {
-    name: "Tami Peterson",
+    name: "Tami Paterson",
     title: "HTML Guru",
     svg: Tami,
     bg: "navy",
