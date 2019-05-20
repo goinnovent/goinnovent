@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 import SmallHero from "../components/SmallHero"
 import {
   Container,
@@ -14,7 +13,6 @@ const Field = props => <input {...props} />
 
 const Contact = () => (
   <Layout>
-    <SEO title="Contact" />
     <SmallHero title="Contact" bg="navy" />
     <Container mt={40} mb={40}>
       <FormHeader>Are you ready? We are.</FormHeader>

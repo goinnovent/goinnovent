@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 import styled from "@emotion/styled"
 import SmallHero from "../components/SmallHero"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 import { Grid, Box } from "../components/utils"
 import zenefits from "../images/zenefits/ZEN1.jpg"
 import avia from "../images/avia/Avia2.jpg"
@@ -40,7 +39,6 @@ const BoxBg = styled.span`
 
 const SuccessStories = () => (
   <Layout>
-    <SEO title="Success Stories" />
     <SmallHero bg="green" title="Success Stories" />
     <Grid mt={24}>
       <BoxLink to="/success-stories/zenefits" url={zenefits} bg="#ED4945">

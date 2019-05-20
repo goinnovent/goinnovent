@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../../components/layout"
-import SEO from "../../components/seo"
 import { Container, Grid, GridHero, Box } from "../../components/utils"
 import nsm1 from "../../images/nsm/NSM1.jpg"
 import nsm2 from "../../images/nsm/NSM2.jpg"
@@ -12,7 +11,6 @@ import nsm7 from "../../images/nsm/NSM7.jpg"
 
 const MWIPage = () => (
   <Layout>
-    <SEO title="MWI Animal Health National Sales Meeting" />
     <Container>
       <GridHero title="MWI Animal Health National Sales Meeting" bg="#072141">
         The MWI Animal Health National Sales Meeting brings sales associates

@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../../components/layout"
-import SEO from "../../components/seo"
 import { Container, Grid, GridHero, Box } from "../../components/utils"
 import ifpw1 from "../../images/ifpw/IFPW1.jpg"
 import ifpw2 from "../../images/ifpw/IFPW2.jpg"
@@ -9,7 +8,6 @@ import ifpw4 from "../../images/ifpw/IFPW4.jpg"
 
 const IFPWPage = () => (
   <Layout>
-    <SEO title="Uniting Global Healthcare Leaders" />
     <Container>
       <GridHero title="Uniting Global Healthcare Leaders" bg="#283F8E">
         The IFPW CEO Roundtable is a two-day event that occurs annually in a

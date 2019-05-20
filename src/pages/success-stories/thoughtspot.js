@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../../components/layout"
-import SEO from "../../components/seo"
 import { Container, Grid, GridHero, Box } from "../../components/utils"
 import ths1 from "../../images/thoughtspot/THS1.jpg"
 import ths2 from "../../images/thoughtspot/THS2.jpg"
@@ -16,7 +15,6 @@ import ths11 from "../../images/thoughtspot/THS11.jpg"
 
 const Thoughtspot = () => (
   <Layout>
-    <SEO title="Good Neighbor Pharmacy ThoughtSpot" />
     <Container>
       <GridHero title="Good Neighbor Pharmacy ThoughtSpot" bg="#116AAF">
         Good Neighbor Pharmacy is a cooperative network containing more than

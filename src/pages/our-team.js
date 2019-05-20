@@ -2,7 +2,6 @@ import React from "react"
 import styled from "@emotion/styled"
 import { space, color } from "styled-system"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 import SmallHero from "../components/SmallHero"
 import PhotoGrid from "../components/PhotoGrid"
 import {
@@ -28,7 +27,6 @@ const Field = props => <input {...props} />
 
 const OurTeam = () => (
   <Layout>
-    <SEO title="Our Team" />
     <SmallHero title="Our Team" bg="yellow" />
     <PhotoGrid mt={20} mb={20} />
     <FormWrap>

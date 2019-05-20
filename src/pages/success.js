@@ -2,7 +2,6 @@ import React from "react"
 import Layout from "../components/layout"
 import styled from "@emotion/styled"
 import { Container } from "../components/utils"
-import SEO from "../components/seo"
 
 const Flex = styled.div`
   display: flex;
@@ -13,7 +12,6 @@ const Flex = styled.div`
 
 const Success = () => (
   <Layout>
-    <SEO title="Thank You!" />
     <Container>
       <Flex>
         <h3>Thank you for your submission! We'll be in touch soon.</h3>

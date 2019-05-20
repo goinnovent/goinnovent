@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../../components/layout"
-import SEO from "../../components/seo"
 import { Container, Grid, GridHero, Box } from "../../components/utils"
 import GridVideo from "../../components/GridVideo"
 import zen1 from "../../images/zenefits/ZEN1.jpg"
@@ -12,7 +11,6 @@ import video from "../../images/zenefits/video.jpg"
 
 const ZenefitsPage = () => (
   <Layout>
-    <SEO title="Zenefits SHIFT" />
     <Container>
       <GridHero title="Zenefits SHIFT" bg="#ED4945">
         The aim of Zenefits SHIFT was a multi-faceted hybrid event with the

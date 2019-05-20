@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Go Innovent`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Innovent | Client-driven, brand engagement agency that connects brands with their audiences. `,
+    description: `User conferences, meetings, events and brand development-Innovent creates memorable experiences at your events and drive brand strategy, delivering results that reach far beyond your expectations`,
     author: `@goinnovent`,
   },
   plugins: [

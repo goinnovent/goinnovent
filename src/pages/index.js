@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 import Hero from "../components/hero"
 import styled from "@emotion/styled"
 import Video from "../components/video"
@@ -120,7 +119,6 @@ const FeatureWrap = styled.div`
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <Hero />
     <Video />
     <Content>

@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../../components/layout"
-import SEO from "../../components/seo"
 import { Container, Grid, GridHero, Box } from "../../components/utils"
 import GridVideo from "../../components/GridVideo"
 import xom1 from "../../images/exxon/XOM1.jpg"
@@ -12,10 +11,6 @@ import video from "../../images/exxon/video.jpg"
 
 const ExxonMobilPage = () => (
   <Layout>
-    <SEO
-      title="ExxonMobil Annual Shareholders Meeting"
-      keywords={[`gatsby`, `application`, `react`]}
-    />
     <Container>
       <GridHero title="ExxonMobil Annual Shareholders Meeting" bg="#EA222E">
         For years, ExxonMobil’s Annual stakeholder meeting repurposed the event

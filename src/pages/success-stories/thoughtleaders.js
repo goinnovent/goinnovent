@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../../components/layout"
-import SEO from "../../components/seo"
 import { Container, Grid, GridHero, Box } from "../../components/utils"
 import thl1 from "../../images/thl/THL1.jpg"
 import thl2 from "../../images/thl/THL2.jpg"
@@ -12,7 +11,6 @@ import thl7 from "../../images/thl/THL7.jpg"
 
 const Thoughtleaders = () => (
   <Layout>
-    <SEO title="AmerisourceBergen ThoughtLeaders" />
     <Container>
       <GridHero title="AmerisourceBergen ThoughtLeaders" bg="#158BAF">
         AmerisourceBergen is a fortune 500 company which provides the

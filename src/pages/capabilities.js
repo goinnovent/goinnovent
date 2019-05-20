@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 import styled from "@emotion/styled"
 import { space, color } from "styled-system"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 import SmallHero from "../components/SmallHero"
 import { Content } from "./index"
 import { fluidType } from "../utils"
@@ -114,7 +113,6 @@ const SplitWrap = styled.div`
 
 const Capabilities = () => (
   <Layout>
-    <SEO title="Capabilities" keywords={[`gatsby`, `application`, `react`]} />
     <CapabilitiesHero bg={`#4D4E4C`} />
     <Content mt={40}>
       <p>

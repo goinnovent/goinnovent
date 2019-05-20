@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../../components/layout"
-import SEO from "../../components/seo"
 import { Container, Grid, GridHero, Box } from "../../components/utils"
 import thl1 from "../../images/avia/Avia1.jpg"
 import thl2 from "../../images/avia/Avia2.jpg"
@@ -10,7 +9,6 @@ import thl5 from "../../images/avia/Avia5.jpg"
 
 const AviaPage = () => (
   <Layout>
-    <SEO title="AVIA Consumerism" />
     <Container>
       <GridHero title="AVIA Consumerism" bg="#81AA4C">
         AVIA runs the nation’s leading network for health systems seeking to

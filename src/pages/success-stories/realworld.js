@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../../components/layout"
-import SEO from "../../components/seo"
 import { Container, Grid, GridHero, Box } from "../../components/utils"
 import GridVideo from "../../components/GridVideo"
 import rw1 from "../../images/realworld/RW1.jpg"
@@ -12,7 +11,6 @@ import video from "../../images/realworld/video.jpg"
 
 const RealPage = () => (
   <Layout>
-    <SEO title="RealPage RealWorld" />
     <Container>
       <GridHero title="RealPage RealWorld" bg="#F49531">
         RealPage’s annual conference, RealWorld, is the largest in the industry

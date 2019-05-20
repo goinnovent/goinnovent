@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import { ThemeProvider } from "emotion-theming"
+import Helmet from "react-helmet"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import "./layout.css"
@@ -32,12 +33,30 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title
+            description
           }
         }
       }
     `}
     render={data => (
       <>
+        <Helmet
+          title={data.site.siteMetadata.title}
+          meta={[
+            {
+              name: `description`,
+              content: data.site.siteMetadata.description,
+            },
+            {
+              property: `og:title`,
+              content: data.site.siteMetadata.title,
+            },
+            {
+              property: `og:description`,
+              content: data.site.siteMetadata.description,
+            },
+          ]}
+        />
         <ThemeProvider theme={theme}>
           <div className="page">
             <Header />
