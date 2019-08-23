@@ -9,6 +9,7 @@ import Sabrina from "./images/team/Sabrina"
 import Shannon from "./images/team/Shannon"
 import Spencer from "./images/team/Spencer"
 import Tami from "./images/team/Tami"
+import Tara from "./images/team/Tara"
 import Tommy from "./images/team/Tommy"
 
 const teamData = [
@@ -93,6 +94,13 @@ const teamData = [
     name: "Tami Paterson",
     title: "HTML Guru",
     svg: Tami,
+    bg: "navy",
+    bgHover: "blue",
+  },
+  {
+    name: "Tara Finley",
+    title: "Designer",
+    svg: Tara,
     bg: "navy",
     bgHover: "blue",
   },

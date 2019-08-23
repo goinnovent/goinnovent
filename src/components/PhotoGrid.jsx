@@ -7,7 +7,7 @@ import { fluidType } from "../utils"
 const PhotoGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(6, 25vw);
+  grid-template-rows: repeat(7, 25vw);
   grid-gap: 10px;
   ${space};
   margin-left: 10px;
@@ -17,7 +17,7 @@ const PhotoGrid = styled.div`
     margin-left: 20px;
     margin-right: 20px;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 25vw);
+    grid-template-rows: repeat(4, 25vw);
   }
 `
 
