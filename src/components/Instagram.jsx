@@ -75,15 +75,13 @@ class Feed extends Component {
   render() {
     return (
       <Wrapper>
-        {this.state.photos.slice(0, 8).map(photo => (
-          <Photo key={photo.id} href={photo.link} target="_blank">
-            <img
-              src={photo.images.standard_resolution.url}
-              alt={photo.caption.text}
-            />
-            <InstaIcon />
-          </Photo>
-        ))}
+        {this.state.photos.length > 0 &&
+          this.state.photos.slice(0, 8).map(photo => (
+            <Photo key={photo.id} href={photo.link} target="_blank">
+              <img src={photo.images.standard_resolution.url} />
+              <InstaIcon />
+            </Photo>
+          ))}
       </Wrapper>
     )
   }
