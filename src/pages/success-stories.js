@@ -111,14 +111,14 @@ const SuccessStories = () => (
         <BoxText>RealPage RealWorld</BoxText>
       </BoxLink>
     </Grid>
-    <Grid>
-      <BoxLink to="/success-stories/thoughtspot" url={thoughtspot} bg="#116AAF">
-        <BoxBg />
-        <BoxText>Good Neighbor Pharmacy ThoughtSpot</BoxText>
-      </BoxLink>
+    <Grid flip>
       <BoxLink to="/success-stories/ifpw" url={ifpw} bg="#283F8E">
         <BoxBg />
         <BoxText>IFPW CEO Roundtable</BoxText>
+      </BoxLink>
+      <BoxLink to="/success-stories/thoughtspot" url={thoughtspot} bg="#116AAF">
+        <BoxBg />
+        <BoxText>Good Neighbor Pharmacy ThoughtSpot</BoxText>
       </BoxLink>
       {/* <BoxLink to="/success-stories/exxonmobil" url={exxon} bg="#EA222E">
         <BoxBg />
