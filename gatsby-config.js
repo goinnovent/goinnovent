@@ -22,6 +22,8 @@ module.exports = {
       options: {},
     },
     "gatsby-plugin-svgr",
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -29,9 +31,28 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-mdx`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `capabilities`,
+        path: `${__dirname}/src/capabilities`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        defaultLayouts: {
+          capabilities: require.resolve("./src/layouts/capabilities.js"),
+          default: require.resolve("./src/components/layout.js"),
+        },
+      },
+    },
+    {
+      resolve: "gatsby-plugin-page-creator",
+      options: {
+        path: `${__dirname}/src/capabilities`,
+      },
+    },
     // {
     //   resolve: `gatsby-plugin-manifest`,
     //   options: {

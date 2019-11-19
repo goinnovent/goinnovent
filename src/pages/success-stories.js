@@ -41,13 +41,49 @@ const SuccessStories = () => (
   <Layout>
     <SmallHero bg="green" title="Success Stories" />
     <Grid mt={24}>
-      <BoxLink to="/success-stories/zenefits" url={zenefits} bg="#ED4945">
+      <BoxLink
+        to="/success-stories/ama-marketer-oty"
+        url={zenefits}
+        bg="#ED4945"
+      >
         <BoxBg />
-        <BoxText>Zenefits</BoxText>
+        <BoxText>AMA Marketer of the Year</BoxText>
       </BoxLink>
-      <BoxLink to="/success-stories/realworld" url={realworld} bg="#F49531">
+      <BoxLink
+        to="/success-stories/avia-network-summit"
+        url={realworld}
+        bg="#F49531"
+      >
         <BoxBg />
-        <BoxText>RealPage RealWorld</BoxText>
+        <BoxText>AVIA Network Summit</BoxText>
+      </BoxLink>
+    </Grid>
+    <Grid flip>
+      <BoxLink
+        to="/success-stories/cpa-envolvement2019"
+        url={zenefits}
+        bg="#ED4945"
+      >
+        <BoxBg />
+        <BoxText>CPA Envolvement 2019</BoxText>
+      </BoxLink>
+      <BoxLink
+        to="/success-stories/good-neighbor-pharmacy-marketing-lab"
+        url={realworld}
+        bg="#F49531"
+      >
+        <BoxBg />
+        <BoxText>Good Neighbor Pharmacy Marketing Lab</BoxText>
+      </BoxLink>
+    </Grid>
+    <Grid>
+      <BoxLink to="/success-stories/mwi" url={mwi} bg="#283F8E">
+        <BoxBg />
+        <BoxText>MWI Animal Health National Sales Meeting</BoxText>
+      </BoxLink>
+      <BoxLink to="/success-stories/parexel" url={mwi} bg="#283F8E">
+        <BoxBg />
+        <BoxText>Parexel</BoxText>
       </BoxLink>
     </Grid>
     <Grid flip>
@@ -58,6 +94,16 @@ const SuccessStories = () => (
       <BoxLink to="/success-stories/thoughtleaders" url={thl} bg="#158BAF">
         <BoxBg />
         <BoxText>AmerisourceBergen ThoughtLeaders</BoxText>
+      </BoxLink>
+    </Grid>
+    <Grid>
+      <BoxLink to="/success-stories/zenefits" url={zenefits} bg="#ED4945">
+        <BoxBg />
+        <BoxText>Zenefits</BoxText>
+      </BoxLink>
+      <BoxLink to="/success-stories/realworld" url={realworld} bg="#F49531">
+        <BoxBg />
+        <BoxText>RealPage RealWorld</BoxText>
       </BoxLink>
     </Grid>
     <Grid>
@@ -73,12 +119,6 @@ const SuccessStories = () => (
         <BoxBg />
         <BoxText>ExxonMobil Annual Shareholders Meeting</BoxText>
       </BoxLink> */}
-    </Grid>
-    <Grid flip>
-      <BoxLink to="/success-stories/mwi" url={mwi} bg="#283F8E">
-        <BoxBg />
-        <BoxText>MWI Animal Health National Sales Meeting</BoxText>
-      </BoxLink>
     </Grid>
   </Layout>
 )
