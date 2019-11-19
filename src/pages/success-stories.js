@@ -12,6 +12,11 @@ import thoughtspot from "../images/thoughtspot/THS4.jpg"
 import exxon from "../images/exxon/XOM1.jpg"
 import ifpw from "../images/ifpw/IFPW1.jpg"
 import mwi from "../images/nsm/NSM1.jpg"
+import amaMarketer from "../images/ama-marketer/1.png"
+import aviaNetwork from "../images/avia-network/1.png"
+import cpaEnvolvement from "../images/cpa-envolvement/1.jpg"
+import gnpLabs from "../images/gnp-marketing-lab/1.jpg"
+import parexel from "../images/parexel/1.jpg"
 
 const BoxLink = props => <Box feature={true} as={Link} {...props} />
 
@@ -43,7 +48,7 @@ const SuccessStories = () => (
     <Grid mt={24}>
       <BoxLink
         to="/success-stories/ama-marketer-oty"
-        url={zenefits}
+        url={amaMarketer}
         bg="#ED4945"
       >
         <BoxBg />
@@ -51,7 +56,7 @@ const SuccessStories = () => (
       </BoxLink>
       <BoxLink
         to="/success-stories/avia-network-summit"
-        url={realworld}
+        url={aviaNetwork}
         bg="#F49531"
       >
         <BoxBg />
@@ -61,7 +66,7 @@ const SuccessStories = () => (
     <Grid flip>
       <BoxLink
         to="/success-stories/cpa-envolvement2019"
-        url={zenefits}
+        url={cpaEnvolvement}
         bg="#ED4945"
       >
         <BoxBg />
@@ -69,7 +74,7 @@ const SuccessStories = () => (
       </BoxLink>
       <BoxLink
         to="/success-stories/good-neighbor-pharmacy-marketing-lab"
-        url={realworld}
+        url={gnpLabs}
         bg="#F49531"
       >
         <BoxBg />
@@ -77,13 +82,13 @@ const SuccessStories = () => (
       </BoxLink>
     </Grid>
     <Grid>
+      <BoxLink to="/success-stories/parexel" url={parexel} bg="#283F8E">
+        <BoxBg />
+        <BoxText>Parexel</BoxText>
+      </BoxLink>
       <BoxLink to="/success-stories/mwi" url={mwi} bg="#283F8E">
         <BoxBg />
         <BoxText>MWI Animal Health National Sales Meeting</BoxText>
-      </BoxLink>
-      <BoxLink to="/success-stories/parexel" url={mwi} bg="#283F8E">
-        <BoxBg />
-        <BoxText>Parexel</BoxText>
       </BoxLink>
     </Grid>
     <Grid flip>

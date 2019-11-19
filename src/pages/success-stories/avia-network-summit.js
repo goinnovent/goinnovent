@@ -1,11 +1,12 @@
 import React from "react"
 import Layout from "../../components/layout"
 import { Container, Grid, GridHero, Box } from "../../components/utils"
-import thl1 from "../../images/avia/Avia1.jpg"
-import thl2 from "../../images/avia/Avia2.jpg"
-import thl3 from "../../images/avia/Avia3.jpg"
-import thl4 from "../../images/avia/Avia4.jpg"
-import thl5 from "../../images/avia/Avia5.jpg"
+import image1 from "../../images/avia-network/1.png"
+import image2 from "../../images/avia-network/2.png"
+import image3 from "../../images/avia-network/3.png"
+import image4 from "../../images/avia-network/4.png"
+import image5 from "../../images/avia-network/5.png"
+import image6 from "../../images/avia-network/6.jpg"
 
 const AviaPage = () => (
   <Layout>
@@ -47,15 +48,18 @@ const AviaPage = () => (
           </li>
         </ul>
       </Box>
-      <Box bg="#aaa" url={thl1} />
+      <Box bg="#aaa" url={image1} />
     </Grid>
     <Grid flip>
-      <Box url={thl2} />
-      <Box url={thl3} />
+      <Box url={image2} />
+      <Box url={image3} />
     </Grid>
     <Grid>
-      <Box url={thl4} />
-      <Box url={thl5} />
+      <Box url={image4} />
+      <Box url={image5} />
+    </Grid>
+    <Grid flip>
+      <Box url={image6} />
     </Grid>
   </Layout>
 )

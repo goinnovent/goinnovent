@@ -1,12 +1,12 @@
 import React from "react"
 import Layout from "../../components/layout"
 import { Container, Grid, GridHero, Box } from "../../components/utils"
-import image1 from "../../images/ama-marketer/image1.png"
-import image2 from "../../images/ama-marketer/image2.jpg"
-import image3 from "../../images/ama-marketer/image3.png"
-import image4 from "../../images/ama-marketer/image4.png"
-import image5 from "../../images/ama-marketer/image5.png"
-import image6 from "../../images/ama-marketer/image6.png"
+import image1 from "../../images/ama-marketer/1.png"
+import image2 from "../../images/ama-marketer/2.jpg"
+import image3 from "../../images/ama-marketer/3.png"
+import image4 from "../../images/ama-marketer/4.png"
+import image5 from "../../images/ama-marketer/5.png"
+import image6 from "../../images/ama-marketer/6.png"
 
 const AviaPage = () => (
   <Layout>
@@ -39,15 +39,15 @@ const AviaPage = () => (
           </li>
         </ul>
       </Box>
-      <Box bg="#aaa" url={image1} />
+      <Box bg="#aaa" url={image3} />
     </Grid>
     <Grid flip>
       <Box url={image2} />
-      <Box url={image3} />
+      <Box url={image1} />
     </Grid>
     <Grid>
-      <Box url={image4} />
       <Box url={image5} />
+      <Box url={image4} />
     </Grid>
     <Grid flip>
       <Box url={image6} />
