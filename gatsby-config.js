@@ -27,15 +27,15 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: `pages`,
+        path: `${__dirname}/src/pages`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `capabilities`,
-        path: `${__dirname}/src/capabilities`,
+        name: `images`,
+        path: `${__dirname}/src/images`,
       },
     },
     {
@@ -45,12 +45,6 @@ module.exports = {
           capabilities: require.resolve("./src/layouts/capabilities.js"),
           default: require.resolve("./src/components/layout.js"),
         },
-      },
-    },
-    {
-      resolve: "gatsby-plugin-page-creator",
-      options: {
-        path: `${__dirname}/src/capabilities`,
       },
     },
     // {

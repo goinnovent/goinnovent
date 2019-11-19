@@ -5,10 +5,11 @@ import CapabilitiesHero from "../components/CapabilitiesHero"
 
 const CapabilitiesLayout = props => {
   console.log(props.pageContext.frontmatter)
+  const { color } = props.pageContext.frontmatter
 
   return (
     <Layout>
-      <CapabilitiesHero bg="green" />
+      <CapabilitiesHero bg={color} />
       <Container mt={60} pb={40}>
         {props.children}
       </Container>

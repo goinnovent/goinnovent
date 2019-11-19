@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "@emotion/styled"
-import { space, color } from "styled-system"
+import { space } from "styled-system"
 import { fluidType } from "../utils"
 import SmallHero from "./SmallHero"
 

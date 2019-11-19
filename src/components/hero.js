@@ -1,6 +1,5 @@
 import React from "react"
 import styled from "@emotion/styled"
-import { color } from "styled-system"
 import slide1 from "../hero/slide1.svg"
 import slide2 from "../hero/slide2.svg"
 import slide3 from "../hero/slide3.svg"
@@ -47,23 +46,6 @@ const Item = styled.div`
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 100%;
-`
-
-const Pagination = styled.div`
-  display: flex;
-  position: absolute;
-  bottom: 20px;
-  right: 10px;
-`
-
-const PageItem = styled.span`
-  display: block;
-  width: 18px;
-  height: 18px;
-  content: " ";
-  border: 1px solid #fff;
-  ${color};
-  margin: 4px;
 `
 
 const Slide = styled.div`

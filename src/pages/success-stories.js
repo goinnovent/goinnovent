@@ -9,7 +9,7 @@ import avia from "../images/avia/Avia2.jpg"
 import realworld from "../images/realworld/RW1.jpg"
 import thl from "../images/thl/THL3.jpg"
 import thoughtspot from "../images/thoughtspot/THS4.jpg"
-import exxon from "../images/exxon/XOM1.jpg"
+// import exxon from "../images/exxon/XOM1.jpg"
 import ifpw from "../images/ifpw/IFPW1.jpg"
 import mwi from "../images/nsm/NSM1.jpg"
 import amaMarketer from "../images/ama-marketer/1.png"
@@ -49,7 +49,7 @@ const SuccessStories = () => (
       <BoxLink
         to="/success-stories/ama-marketer-oty"
         url={amaMarketer}
-        bg="#ED4945"
+        bg="#E9A52B"
       >
         <BoxBg />
         <BoxText>AMA Marketer of the Year</BoxText>
@@ -57,7 +57,7 @@ const SuccessStories = () => (
       <BoxLink
         to="/success-stories/avia-network-summit"
         url={aviaNetwork}
-        bg="#F49531"
+        bg="#8DB060"
       >
         <BoxBg />
         <BoxText>AVIA Network Summit</BoxText>
@@ -67,7 +67,7 @@ const SuccessStories = () => (
       <BoxLink
         to="/success-stories/cpa-envolvement2019"
         url={cpaEnvolvement}
-        bg="#ED4945"
+        bg="#3DB14E"
       >
         <BoxBg />
         <BoxText>CPA Envolvement 2019</BoxText>
@@ -75,14 +75,14 @@ const SuccessStories = () => (
       <BoxLink
         to="/success-stories/good-neighbor-pharmacy-marketing-lab"
         url={gnpLabs}
-        bg="#F49531"
+        bg="#02B4C9"
       >
         <BoxBg />
         <BoxText>Good Neighbor Pharmacy Marketing Lab</BoxText>
       </BoxLink>
     </Grid>
     <Grid>
-      <BoxLink to="/success-stories/parexel" url={parexel} bg="#283F8E">
+      <BoxLink to="/success-stories/parexel" url={parexel} bg="#830854">
         <BoxBg />
         <BoxText>Parexel</BoxText>
       </BoxLink>

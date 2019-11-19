@@ -1,6 +1,5 @@
 import React from "react"
 import styled from "@emotion/styled"
-import { space, color } from "styled-system"
 import Layout from "../components/layout"
 import SmallHero from "../components/SmallHero"
 import PhotoGrid from "../components/PhotoGrid"

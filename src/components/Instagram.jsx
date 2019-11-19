@@ -1,3 +1,4 @@
+// eslint-disable jsx-a11y/alt-text
 import React, { Component } from "react"
 import styled from "@emotion/styled"
 
@@ -77,8 +78,13 @@ class Feed extends Component {
       <Wrapper>
         {this.state.photos.length > 0 &&
           this.state.photos.slice(0, 8).map(photo => (
-            <Photo key={photo.id} href={photo.link} target="_blank">
-              <img src={photo.images.standard_resolution.url} />
+            <Photo
+              key={photo.id}
+              href={photo.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={photo.images.standard_resolution.url} alt="" />
               <InstaIcon />
             </Photo>
           ))}
