@@ -1,7 +1,8 @@
 import React from "react"
 import styled from "@emotion/styled"
 import teamData from "../teamData"
-import { get, space } from "styled-system"
+import { space } from "styled-system"
+import { themeGet } from "@styled-system/theme-get"
 import { fluidType } from "../utils"
 
 const PhotoGrid = styled.div`
@@ -33,7 +34,7 @@ const PhotoMeta = styled.div`
   justify-content: center;
   align-items: flex-start;
   padding: 10px;
-  background: ${p => get(`colors.${p.bgHover}`, "#aaa")(p)};
+  background: ${p => themeGet(`colors.${p.bgHover}`, "#aaa")(p)};
   transform: translateY(10px);
   transition: opacity 0.15s ease-in-out, transform 0.15s ease-in-out;
 
@@ -70,11 +71,11 @@ const Photo = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: ${p => get(`colors.${p.bg}`, "#aaa")(p)};
+  background: ${p => themeGet(`colors.${p.bg}`, "#aaa")(p)};
   overflow: hidden;
 
   &:hover {
-    background: ${p => get(`colors.${p.bgHover}`, "#aaa")(p)};
+    background: ${p => themeGet(`colors.${p.bgHover}`, "#aaa")(p)};
 
     ${PhotoMeta} {
       opacity: 1;
