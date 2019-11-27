@@ -6,7 +6,6 @@ import image2 from "../../images/avia-network/2.png"
 import image3 from "../../images/avia-network/3.png"
 import image4 from "../../images/avia-network/4.png"
 import image5 from "../../images/avia-network/5.png"
-import image6 from "../../images/avia-network/6.jpg"
 
 const AviaPage = () => (
   <Layout>
@@ -57,9 +56,6 @@ const AviaPage = () => (
     <Grid>
       <Box url={image4} />
       <Box url={image5} />
-    </Grid>
-    <Grid flip>
-      <Box url={image6} />
     </Grid>
   </Layout>
 )

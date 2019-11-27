@@ -13,15 +13,14 @@ const AviaPage = () => (
   <Layout>
     <Container>
       <GridHero title="Good Neighbor Pharmacy Marketing Lab" bg="#02B4C9">
-        <em>Good Neighbor Pharmacy</em> is a family of locally owned, locally
-        loved, independent pharmacies who are committed to providing
-        personalized care to their patients. At ThoughtSpot, 
-        <em>Good Neighbor Pharmacy's</em> annual conference and tradeshow, the
-        marketing lab was one of the premier booths showcased at the tradeshow.
-        Designed to inspire and educate pharmacies on the importance of
-        marketing solutions tailored to their customers, we created a brand
-        identity for the space that represented the pharmacist's uniqueness and
-        stature in their community.
+        Good Neighbor Pharmacy is a family of locally owned, locally loved,
+        independent pharmacies who are committed to providing personalized care
+        to their patients. At ThoughtSpot,  Good Neighbor Pharmacy's annual
+        conference and tradeshow, the marketing lab was one of the premier
+        booths showcased at the tradeshow. Designed to inspire and educate
+        pharmacies on the importance of marketing solutions tailored to their
+        customers, we created a brand identity for the space that represented
+        the pharmacist's uniqueness and stature in their community.
         <br /> <br />
         The marketing lab featured a pharmoji builder, a unique digital app
         where pharmacists could create and customize their own pharmoji avatar

@@ -6,7 +6,6 @@ import image2 from "../../images/ama-marketer/2.jpg"
 import image3 from "../../images/ama-marketer/3.png"
 import image4 from "../../images/ama-marketer/4.png"
 import image5 from "../../images/ama-marketer/5.png"
-import image6 from "../../images/ama-marketer/6.png"
 
 const AviaPage = () => (
   <Layout>
@@ -34,6 +33,8 @@ const AviaPage = () => (
           </li>
           <li>
             Created video imagery and content for pre-event and onsite use
+          </li>
+          <li>
             Designed an 84-page program to recognize all award finalists and
             showcase event sponsors
           </li>
@@ -48,9 +49,6 @@ const AviaPage = () => (
     <Grid>
       <Box url={image5} />
       <Box url={image4} />
-    </Grid>
-    <Grid flip>
-      <Box url={image6} />
     </Grid>
   </Layout>
 )

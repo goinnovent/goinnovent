@@ -6,7 +6,6 @@ import image2 from "../../images/parexel/2.jpg"
 import image3 from "../../images/parexel/3.jpg"
 import image4 from "../../images/parexel/4.jpg"
 import image5 from "../../images/parexel/5.jpg"
-import image6 from "../../images/parexel/6.jpg"
 import image7 from "../../images/parexel/7.jpg"
 import image8 from "../../images/parexel/8.jpg"
 import image9 from "../../images/parexel/9.jpg"
@@ -21,11 +20,11 @@ const AviaPage = () => (
         Texas. Their objective was to celebrate their accomplishments, address
         challenges, and share ideas for accelerating their growth in 2020.
         Parexel partnered with Innovent to manage the event space planning,
-        design and execute the EXPO, and oversee general session production.
+        design and execute the EXPO, and oversee General Session production.
         <br /> <br />
         We took Parexel's new brand identity and determined a strategic approach
         to bring their message to the forefront of every visual opportunity.
-        Through the event dress, app, general session, opening night reception,
+        Through the event dress, app, General Session, opening night reception
         and EXPO, we infused their voice to inspire their leaders and create a
         lasting first impression.
       </GridHero>
@@ -55,19 +54,16 @@ const AviaPage = () => (
       <Box url={image3} />
     </Grid>
     <Grid>
-      <Box url={image4} />
+      <Box url={image7} />
       <Box url={image5} />
     </Grid>
     <Grid flip>
-      <Box url={image6} />
-      <Box url={image7} />
+      <Box url={image10} />
+      <Box url={image4} />
     </Grid>
     <Grid>
       <Box url={image8} />
       <Box url={image9} />
-    </Grid>
-    <Grid flip>
-      <Box url={image10} />
     </Grid>
   </Layout>
 )
