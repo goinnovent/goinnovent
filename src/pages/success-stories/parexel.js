@@ -20,12 +20,12 @@ const AviaPage = () => (
         Texas. Their objective was to celebrate their accomplishments, address
         challenges, and share ideas for accelerating their growth in 2020.
         Parexel partnered with Innovent to manage the event space planning,
-        design and execute the EXPO, and oversee General Session production.
+        design and execute the expo, and oversee General Session production.
         <br /> <br />
         We took Parexel's new brand identity and determined a strategic approach
         to bring their message to the forefront of every visual opportunity.
         Through the event dress, app, General Session, opening night reception
-        and EXPO, we infused their voice to inspire their leaders and create a
+        and expo, we infused their voice to inspire their leaders and create a
         lasting first impression.
       </GridHero>
     </Container>
@@ -38,7 +38,7 @@ const AviaPage = () => (
             a feeling of connectedness and inspiration
           </li>
           <li>
-            Designed and executed the EXPO to showcase the importance of
+            Designed and executed the expo to showcase the importance of
             Parexel's work and commitment of delivering value to their customers
           </li>
           <li>
