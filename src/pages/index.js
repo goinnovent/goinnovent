@@ -45,6 +45,11 @@ function linkColor({ bg }) {
         color: #ec982d;
       `
     }
+    default: {
+      return css`
+        color: #2a75a2;
+      `
+    }
   }
 }
 

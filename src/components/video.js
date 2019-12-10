@@ -54,6 +54,7 @@ const Video = () => {
               height="360"
               frameBorder="0"
               allowFullScreen
+              title="vimeo video"
             />
           </div>
         </div>

@@ -1,7 +1,8 @@
 import React from "react"
 import styled from "@emotion/styled"
 import teamData from "../teamData"
-import { themeGet, space } from "styled-system"
+import { space } from "styled-system"
+import { themeGet } from "@styled-system/theme-get"
 import { fluidType } from "../utils"
 
 const PhotoGrid = styled.div`

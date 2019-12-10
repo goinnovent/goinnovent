@@ -131,15 +131,24 @@ function Footer() {
         <InfoRight className="info-right">
           <InfoRightHeader>Follow Us</InfoRightHeader>
           <SocialLogos>
-            <a href="https://www.facebook.com/goinnovent/" target="_blank">
+            <a
+              href="https://www.facebook.com/goinnovent/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Facebook />
             </a>
-            <a href="https://www.instagram.com/goinnovent/" target="_blank">
+            <a
+              href="https://www.instagram.com/goinnovent/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Instagram />
             </a>
             <a
               href="https://www.linkedin.com/company/goinnovent"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <LinkedIn />
             </a>

@@ -82,6 +82,7 @@ function GridVideo(props) {
               webkitallowfullscreen
               mozallowfullscreen
               allowfullscreen
+              title="video"
             />
           </div>
         </div>
