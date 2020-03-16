@@ -6,17 +6,17 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Work Sans`,
-            variants: [`200`, `400`, `500`, `600`, `700`],
-          },
-        ],
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+    //         family: `Work Sans`,
+    //         variants: [`200`, `400`, `500`, `600`, `700`],
+    //       },
+    //     ],
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-emotion`,
       options: {},
