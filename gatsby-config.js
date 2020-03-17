@@ -5,18 +5,25 @@ module.exports = {
     author: `@goinnovent`,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          {
-            family: `Work Sans`,
-            variants: [`200`, `400`, `500`, `600`, `700`],
-          },
-        ],
+        fonts: [`Work Sans`],
+        display: "swap",
       },
     },
+    `gatsby-plugin-react-helmet`,
+    // {
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+    //         family: `Work Sans`,
+    //         variants: [`200`, `400`, `500`, `600`, `700`],
+    //       },
+    //     ],
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-emotion`,
       options: {},

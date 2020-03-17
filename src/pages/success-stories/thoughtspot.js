@@ -33,14 +33,12 @@ const Thoughtspot = () => (
       <Box>
         <h6>Quick view:</h6>
         <ul>
+          <li>Increased overall attendance over 40% since 2014</li>
           <li>
-            Created a show stopping tradeshow floor with over 500+ exhibitors
+            Created a tradeshow floor experience showcasing AmerisourceBergen
+            programs and solutions, as well as, 270 manufacturer partners
           </li>
-          <li>
-            Increased customer attendance over a 5-year period from 500
-            customers to over 5,500
-          </li>
-          <li>75+ breakout and continuing education classes</li>
+          <li>55+ continuing education sessions</li>
         </ul>
       </Box>
       <Box bg="#aaa" url={ths1} />
