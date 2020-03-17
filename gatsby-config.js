@@ -5,6 +5,13 @@ module.exports = {
     author: `@goinnovent`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Work Sans`],
+        display: "swap",
+      },
+    },
     `gatsby-plugin-react-helmet`,
     // {
     //   resolve: `gatsby-plugin-prefetch-google-fonts`,
