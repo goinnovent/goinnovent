@@ -83,7 +83,9 @@ class Feed extends Component {
 
     return (
       <Wrapper>
-        {this.state.photos.length > 0 &&
+        {this.state.photos &&
+          Array.isArray(this.state.photos) &&
+          this.state.photos.length > 0 &&
           this.state.photos.slice(0, 8).map(photo => (
             <Photo
               key={photo.id}
