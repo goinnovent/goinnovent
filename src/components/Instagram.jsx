@@ -57,6 +57,7 @@ class Feed extends Component {
   state = {
     photos: [],
     loaded: false,
+    failed: false,
   }
 
   componentDidMount() {
@@ -72,11 +73,15 @@ class Feed extends Component {
         this.setState(() => ({ photos: data, loaded: true }))
       })
       .catch(e => {
-        this.setState(() => ({ photos: [], loaded: false }))
+        this.setState(() => ({ photos: [], loaded: false, failed: true }))
       })
   }
 
   render() {
+    if (this.state.failed) {
+      return null
+    }
+
     if (!this.state.loaded) {
       return null
     }
