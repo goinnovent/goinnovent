@@ -71,14 +71,19 @@ class Feed extends Component {
       .then(({ data }) => {
         this.setState(() => ({ photos: data, loaded: true }))
       })
-      .catch(e => {})
+      .catch(e => {
+        this.setState(() => ({ photos: [], loaded: false }))
+      })
   }
 
   render() {
+    if (!this.state.loaded) {
+      return null
+    }
+
     return (
       <Wrapper>
-        {this.state.loaded &&
-          this.state.photos.length > 0 &&
+        {this.state.photos.length > 0 &&
           this.state.photos.slice(0, 8).map(photo => (
             <Photo
               key={photo.id}
