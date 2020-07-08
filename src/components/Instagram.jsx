@@ -15,6 +15,10 @@ const Wrapper = styled.div`
     margin-left: 20px;
     margin-right: 20px;
   }
+
+  &:empty {
+    display: none;
+  }
 `
 
 const Photo = styled.a`
